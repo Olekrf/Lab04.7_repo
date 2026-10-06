@@ -36,11 +36,7 @@ int main()
         } while (fabs(a) >= eps);
 
         cout << "|" << setw(7)  << setprecision(2) << x      << "    |"
-                    << setw(10) << setprecision(5) << log(x) << "    |"
-                    << setw(10) << setprecision(5) << S      << "    |"
-                    << setw(5)  <<                    n      << "    |"
-                    << endl;
-        x += dx;
+
     }
     cout << "-----------------------------------------------------" << endl;
     return 0;
